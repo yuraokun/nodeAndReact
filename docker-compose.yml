@@ -19,7 +19,8 @@ services:
     working_dir: "/usr/src"
     depends_on:
       - db
-    # command: npx nodemon ./app/server.js
+
+    command: npx nodemon ./app2/app.js
 
     # volumes:
     #   # - "./src:/usr/share/nginx/html
@@ -44,6 +45,7 @@ services:
       TZ: "Asia/Tokyo"
     volumes:
       - ./db/database:/var/lib/mysql
+      - ./db/conf.d/my.cnf:/etc/mysql/my.cnf
     networks:
       - nodejs
 

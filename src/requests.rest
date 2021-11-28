@@ -13,3 +13,14 @@ GET http://localhost:8099/users/1
 ###
 GET http://localhost:8099/tasks
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6bnVsbCwicm9sZSI6bnVsbCwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTYzODA5MzA0N30.8CQ4DZGFUBuatF_Sk5Ho_pw1BW-guCKhAX_32oiEstk
+
+
+
+###
+POST http://localhost:8099/task/create
+Content-Type: application/json
+
+{
+  "userId": "1",
+  "text": "本能に従う3"
+}
