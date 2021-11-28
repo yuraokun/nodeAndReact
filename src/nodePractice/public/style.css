@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(112, 185, 248);
+}
+.container {
+  width: 90%;
+  margin: 50px auto 0;
+}
+
+h1 {
+  color: teal;
+}
+
+nav {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 10px;
+}

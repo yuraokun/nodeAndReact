@@ -1,0 +1,15 @@
+POST http://localhost:8099/login
+Content-Type: application/json
+
+{
+  "email": "test@gmail.com",
+  "password": "12345"
+}
+
+###
+GET http://localhost:8099/users/1
+
+
+###
+GET http://localhost:8099/tasks
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6bnVsbCwicm9sZSI6bnVsbCwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTYzODA5MzA0N30.8CQ4DZGFUBuatF_Sk5Ho_pw1BW-guCKhAX_32oiEstk

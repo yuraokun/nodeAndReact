@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "create-react-app": "^4.0.3",
+    "nodemon": "^2.0.15"
+  },
+  "name": "src",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1",
+    "sequelize-cli": "^6.3.0"
+  },
+  "scripts": {
+    "dev": "nodemon test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

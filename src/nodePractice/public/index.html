@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Home Page</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </nav>
+      <h1>HTML Home Page!!</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur,
+        id mollitia, alias praesentium corporis doloribus iure fugiat eaque
+        necessitatibus voluptas harum natus voluptatibus laboriosam provident
+        architecto dolorem atque. Perferendis, culpa?
+      </p>
+      <div>
+        <button id="alert">Alert</button>
+      </div>
+
+      <form action="/login" method="post">
+        <h3>login traditional</h3>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" autocomplete="false" />
+        </div>
+        <button type="submit">submit</button>
+      </form>
+
+      <hr />
+      <form>
+        <h3>Javascript Form</h3>
+        <div>
+          <label for="name">enter name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-input"
+            autocomplete="false"
+          />
+          <small class="form-alert" style="color: red"></small>
+        </div>
+        <button type="submit" class="submit-btn">submit</button>
+      </form>
+      <div class="result"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
